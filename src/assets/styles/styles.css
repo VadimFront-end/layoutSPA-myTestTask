@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EAEEE7;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input,input:focus {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: inherit;
+}
+input::placeholder {color: #CDCDCD;}
+
+.title-of-article {
+    font-weight: bold;
+    font-size: 1.65rem;
+    line-height: 29px;
+    color: #32564A;
+}
+button,button:active,button:focus {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
